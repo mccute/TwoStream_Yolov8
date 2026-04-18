@@ -2,13 +2,13 @@
 # Split source: /home/ubuntu/MCONG/datasets/ESCVehicle/data.json
 # Visible/Infrared image pairs share the same filename and split assignment.
 
-train: /home/ubuntu/MCONG/TwoStream_Yolov8-main/data/escvehicle_visible_train.txt
-val: /home/ubuntu/MCONG/TwoStream_Yolov8-main/data/escvehicle_visible_val.txt
-test: /home/ubuntu/MCONG/TwoStream_Yolov8-main/data/escvehicle_visible_test.txt
+train: escvehicle_visible_train.txt
+val: escvehicle_visible_val.txt
+test: escvehicle_visible_test.txt
 
-train_ir: /home/ubuntu/MCONG/TwoStream_Yolov8-main/data/escvehicle_infrared_train.txt
-val_ir: /home/ubuntu/MCONG/TwoStream_Yolov8-main/data/escvehicle_infrared_val.txt
-test_ir: /home/ubuntu/MCONG/TwoStream_Yolov8-main/data/escvehicle_infrared_test.txt
+train_ir: escvehicle_infrared_train.txt
+val_ir: escvehicle_infrared_val.txt
+test_ir: escvehicle_infrared_test.txt
 
 names:
   0: car
